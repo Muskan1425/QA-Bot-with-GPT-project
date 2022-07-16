@@ -14,7 +14,6 @@ def func(num):
 
 df['OddEvenAge'] = df.loc[:,'Age'].apply(func)
 
-
 image = Image.open('download.jpg')
 st.image(image, caption='Titanic image')
 
