@@ -13,7 +13,9 @@ def func(num):
         return "Odd"
 
 df['OddEvenAge'] = df.loc[:,'Age'].apply(func)
-df
+
 
 image = Image.open('download.jpg')
 st.image(image, caption='Titanic image')
+
+df
