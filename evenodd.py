@@ -1,6 +1,7 @@
 import numpy as np  # np mean, np random
 import pandas as pd  # read csv, df manipulation
-import streamlit as st  
+import streamlit as st 
+from PIL import Image 
 
 st.title('Python program to check if the input number is odd or even.')
 df = pd.read_csv('https://raw.githubusercontent.com/datasciencedojo/datasets/master/titanic.csv')
@@ -13,3 +14,6 @@ def func(num):
 
 df['OddEvenAge'] = df.loc[:,'Age'].apply(func)
 df
+
+image = Image.open('download.jpg')
+st.image(image, caption='Titanic image')
