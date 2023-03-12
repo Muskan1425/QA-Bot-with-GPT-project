@@ -1,0 +1,11 @@
+import random
+
+colors = ['red', 'green', 'blue', 'yellow', 'pink', 'purple', 'orange']
+
+def generate_greeting(name):
+    color = random.choice(colors)
+    return f"Happy Holi, {name}! May your life be filled with {color} colors of joy and happiness."
+
+name = input("Enter your name: ")
+greeting = generate_greeting(name)
+print(greeting)
