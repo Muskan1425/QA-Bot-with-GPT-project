@@ -1,5 +1,7 @@
 # Q&A Bot with GPT
 
+A Q&A Bot with GPT is a chatbot that uses the GPT (Generative Pre-trained Transformer) language model to understand and respond to user queries in a conversational format. The bot can be built using natural language processing (NLP) techniques and can be trained on a large corpus of data to improve its accuracy and ability to understand and respond to user queries. The bot can be integrated with various communication channels, such as messaging platforms and websites, to provide a seamless user experience. The source code for building such a bot can be hosted on GitHub and made available to other developers for further customization and improvement.
+
 Here are the basic steps you can follow:
 
 Install the necessary packages: You will need to install the gpt_index and langchain packages using pip.
